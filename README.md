@@ -114,12 +114,5 @@ Since I cannot remember all the details how I configured the EFI. Here are some 
 - Make a checklist for post-installation tasks.
 - Always Backup your EFI
     - Use Git (Like what I do here) for Version Controlling
-    
-#### Not Enough EFI Space?
-Backup your EFI Partition then follow this: https://www.youtube.com/watch?v=YaPVaAifjl0&ab_channel=LazyTech to expand your EFI partition capacity.
-
-## Credits
-Thanks the owners of OpenCore, kexts, guides and tools that I have used to make this possible even though I cannot list everyone's name.
-
 
 
