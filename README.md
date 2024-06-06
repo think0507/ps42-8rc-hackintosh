@@ -1,15 +1,12 @@
-# Hackintosh for MSI PS63 Modern
+# Hackintosh for MSI PS42 Modern
 ## Specifications
 | Part        | Model | Note |
 | ----------- | ----------- | --- |
 | CPU      | Intel Core i7-8565U       | 
 | Integrated GPU   | Intel UHD Graphic 620        |
 | Dedicated GPU   | NVIDIA GTX1050 Max-Q        |
-| RAM   | DDR4-2400 SO-DIMM 24GB        |
-| SSD 1  | Transcend 220s 1TB        |
-| SSD 2  | HP SATA M.2 SSD 512GB        | Installed macOS on this drive
 | Screen   | 15.6' IPS 1920 × 1080         |
-| Wi-Fi/Bluetooth   | Intel Wireless AC9560        | Works by using itlwm kext
+| Wi-Fi/Bluetooth   | BCM94360NG | I bought it!
 | Card Reader   | Realtek        |
 | Webcam   | 720p        | Keyboard Toggle (Fn + F6) works perfectly
 
