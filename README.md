@@ -11,7 +11,8 @@
 | Webcam   | 720p        | Keyboard Toggle (Fn + F6) works perfectly
 
 ## Hackintosh Status
-![System Information of my laptop](./readme-assets/system-info.png)
+![image](https://github.com/think0507/ps42-8rc-hackintosh/assets/73361033/9c26c9c5-5f89-4781-b868-55853613f466)
+
 
 Here is what I installed and used as a daily driver.
 - **Operating Systems** - Dual-boot macOS Catalina 10.15.6 and Windows 10 each on its own SSD.
@@ -23,15 +24,14 @@ Here is a list of what works, what don't.
 - [x] Sleep
 - [x] Battery Monitoring
 - [x] Integrated GPU
-    - [x] HDMI
-        - Not tested with screens with a resolution greater than FHD
-        - Not tested for audio output
-        - [ ] USB Type-C to HDMI via a dongle 
+    - [ ] HDMI
+        - Not tested
 - [x] Sound + Microphone
     - [x] Audio Jack (Hotpluggable)
     - [x] Speaker
-- [x] Wi-Fi (Works but slower than usual)
+- [x] Wi-Fi (I bought Apple Chips)
 - [x] Bluetooth
+- [x] AirDrop
 - [x] Webcam
 - [x] Trackpad
     - [x] macOS native gestures
@@ -43,13 +43,8 @@ Here is a list of what works, what don't.
 - [ ] Card Reader (There is no workaround.)
 
 ### To-Do List
-- [ ] Add OpenCore Boot Picker GUI
-- [ ] Install an actual Broadcom Wi-Fi NIC
-- [ ] Adjust the trackpad so that it feel better to use.
 - [ ] Upgrade to a newer OpenCore version
-- [ ] Update macOS to Big Sur
-- [ ] Make DRM works for Apple TV
-- [ ] Swap from itlwm (for Intel Wi-Fi) to airportItlwm for better user experiences.
+- [ ] Update macOS to Big Sonoma
 
 ### Guide Used
 - Installation Guide: https://dortania.github.io/OpenCore-Install-Guide/
@@ -67,7 +62,7 @@ Here is a list of what works, what don't.
     6. CFG Lock
 
 ##### SMBIOS
-I used MacBook Pro 15, 2018 SMBIOS.
+I used MacBook Pro 14,1
 
 #### Post Installation Checklist
 Checked item means I already followed the guide in that section. Please note that the hierarchy follows [this guide](https://dortania.github.io/OpenCore-Post-Install/universal/sleep.html#audio).
